@@ -15,7 +15,7 @@
 
 - Weighted input (z<sup>l)
     - related to the neurons in layer l
-    - z<sup>1</sup> = w<sup>1</sup>v al-1 + bl
+    - z<sup>1</sup> = w<sup>1</sup>v a<sup>l-1</sup> + b<sup>l</sup>
     - can write a1 = σ(z<sup>1)
 
 ### Assumptions About the Cost Function 
@@ -36,4 +36,14 @@
     - via backpropagation, we can evaluate all values for the error at every layer and then use those errors 
 
 - the 4 equations allow us to compute the error and the gradient of C
+
+- Error equation in output layer 
+    - includes the partial derivative of C with respect to a (measures how fast the cost function is changing with respect to the j<sup>th</sup> output activation)
+        - if C doesn't depend on that output neuron, then the error is very small 
+    - also includes how fast the activation function is changing with respect to z
+
+ ### Backpropagation Algorithm 
+ 
+
+
 
