@@ -1,0 +1,42 @@
+
+- Glasses show characteristics of both crystals and liquids 
+- Glass can be considered a class of matter
+    - glasses lack periodic order of atoms, ions, or molecules
+    - do not have a sharp melting point 
+    - are considered non-crystalline solids 
+    - have elasticity (like crystalline solids), can flow like liquids
+        - combination of "short time" rigidity (of crystalline state) and long time fluidity (of liquid state)
+
+- Glasses are not usually naturally occuring 
+- Glass formation 
+    - formed by undercooling a liquid below its freezing point to a rigid condition (without crystillization)
+    - can also be formed by compressing a liquid 
+        - Can find the pressure at which the glass transition occurs
+
+Glucose example 
+- you can undercool glucose to form a glass 
+- when the melted state of glucose is cooled below room temp 
+    - glass transition occurs at some point
+    - at this glassy state, its expansivity and heat capacity are like crystalline glucose but its volume and heat content are similar to liquid glucose 
+
+Genetic Definition of Glassy State: maintins energy, volume, and structure of liquid but changed in energy and volume with temperature and pressure similar in magnitude to those of the crystalline solid
+
+- Thermodynamic aspects 
+    - glass transition mimics the characteristics of a second-order thermodynamic transition
+    - do not obey third law of thermodynamics --> entropy of a glass doesn't vanish at absolute zero
+    - applying pressure to a liquid increases the glass transition temperature
+
+- Metastability, Non-Crystalline Solids and Glasses
+    - glassy states are an example of how matter can exist in metastable state
+        - these objects are in a higher free energy than the stable state
+
+
+Data 
+- take trajectory of a particle in a glass 
+    - take a small part of the trajectory (split it in half)
+    - see how far each point in the first half is from the average of the second half (and visa versa)
+    - slide the window across the entire trajectory 
+    - the function Phop is very big when there is a change in the trajectory (small otherwise)
+    - the output is +1 when the particle is rearranging and -1 when the particle is not rearranging
+- the local environment around that particle is represented by the vector of 100 numbers 
+- neural network tries to predict the probability of the particle rearranging 
